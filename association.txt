@@ -1,0 +1,24 @@
+# presentation de l'association sportive #
+
+le club de foot OCA07 souhaite remettre à jour son site web.
+leur nouveau site devra être consutable depuis un téléphone portable.
+
+on devra voir afficher le logo du club et un menu avec:
+_une page de présentation du club.
+	avec un organigramme.
+	avec les sites d'entrainement.
+
+_une page sur les différentes équipes
+   (U7,U11,U13,U15,U18,Vétéran)
+
+_une page contact(telephone,Email, facebook, Instagram).
+
+_une page Partenaire.
+
+_une page évenement.
+
+sous la barre de navigation avec le logo et le menu sera
+afficher en priorité les "News du club".
+
+Les couleurs du club sont le noir et le blanc majoritairement.
+L'ajout d'autre couleur comme "le rouge foncé" ou la couleur "or" devra se faire de manière minoritaire.

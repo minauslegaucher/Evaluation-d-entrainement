@@ -1,6 +1,6 @@
 # presentation de l'association sportive #
 
-le club de foot OCA07 souhaite remettre à jour son site web.
+le club de foot OCA07 (www.oca07.fr) souhaite remettre à jour son site web.
 leur nouveau site devra être consutable depuis un téléphone portable.
 
 on devra voir afficher le logo du club et un menu avec:

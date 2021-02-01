@@ -1,0 +1,11 @@
+@font-face{
+    font-family:"Pacifico.ttf";
+    src: url("\police\Pacifico.ttf") format("truetype");
+}
+
+h1{
+    font-family: "Pacifico.ttf";
+    font-size: 48px;
+    font-style: normal;
+}
+

@@ -5,26 +5,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- Bootstrap CSS -->
-8
-<link href="bootstrap-4.6.0-dist/css/bootstrap.min.css" rel="stylesheet">
+   
+  <!-- Bootstrap CSS -->
+
+  <link href="bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Our CSS -->
+
+  <link rel="stylesheet" href="menu.css">
   <title>Menu</title>
 </head>
 
 
 <body>
+  <div class="container-sm">
+   
+  <header><div class="row justify-content-center">
+     
+    <h1 class="align-self-center"> Menu </h1>
+
+    <img src="imageOCA\logo-oca-header.png" class="rounded" alt="" width="250" height="150">
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-circle col-1 align-self-center" viewBox="0 0 16 16">
+
+      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+      <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+    </svg>
+  </div><!--fin row du menu-->
+
+  </header>  
+    
+   
 
 
+    <div class="row justify-content-center">
+      <div class="btn-group-vertical col-6">
+        
+        <button type="button" class="btn btn-dark btn-outline-warning">le club</button>
+        
+        <button type="button" class="btn btn-dark btn-outline-warning">organigramme</button>
+        <button type="button" class="btn btn-dark btn-outline-warning">les sites d'entraînements</button>
+      
+      </div><!--fin group vertical-->
+      </div><!--fin row-->
 
+      <div class="row justify-content-center">
 
+        <div class="dropdown col-6">
+          <button  type="button" class="btn btn-dark btn-outline-warning dropdown-toggle col-12" data-toggle="dropdown">
+          les équipes</button>
+          <div class="row justify-content-center">
+      
+            <div class="btn-group-vertical col-12">
+                  <button type="button" class="btn btn-dark btn-outline-warning">les evenements</button>
+                  <button type="button" class="btn btn-dark btn-outline-warning">nos partenaires</button>
+            </div><!--fin btn group-->
+        
+          </div><!--fin row des button-->
+    
+          <!--liste des équipes-->
+          <div class="btn-group-vertical col-2">
+            <div class="dropdown-menu" >
+             <button class="btn-outline-dark  dropdown-item" href="#">U9</button>
+             <button class="btn-outline-dark  dropdown-item" href="#">U11</button>
+             <button class="btn-outline-dark  dropdown-item" href="#">U13</button>
+             <button class="btn-outline-dark  dropdown-item" href="#">U15</button>
+             <button class="btn-outline-dark  dropdown-item" href="#">U18</button>
+             <button class="btn-outline-dark  dropdown-item" href="#">Senior</button>
+        
+            </div><!--fin dropdown menu-->
+          </div><!--btn group-->
+        </div><!--fin dropdown-->
+      </div><!--fin row-->    
+  </div><!--fin container-->
+  
+  <!-- jQuery -->
+
+  <script src="jquery-3.5.1.min.js"></script>
 
   <!-- Bootstrap JavaScript -->
-23
-<script src="bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
-24
-<!-- Our JavaScript -->
-25
-<script src="script.js"></script>
+
+  <script src="bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Our JavaScript -->
+
+  <script src="script.js"></script>
+
 </body>
 
 

@@ -18,69 +18,73 @@
 
 
 <body>
-  <div class="container-sm">
+  <div class="container">
    
-  <header>
-    <div class="row justify-content-center">
+    <header>
+      <div class="row justify-content-center">
      
-    <h1 class="align-self-center"> Menu </h1>
+      <h1 class="align-self-center col-4"> Menu </h1>
+      
+      
+      <img src="imageOCA\logo-oca-header.png" class="rounded col-6" alt="" width="250" height="150">
 
-    <img src="imageOCA\logo-oca-header.png" class="rounded" alt="" width="250" height="150">
-
-    <!--retour index par croix-->
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-circle col-1 align-self-center" viewBox="0 0 16 16">
-
-      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-      <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-      </svg>
     
+      <!--retour index par croix-->
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-circle col-2 align-self-center" viewBox="0 0 16 16">
+      
+      <a href="index.html">
+      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+      <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/></a>
+      </svg>
+      
+    </div><!--fin row du menu-->
 
-  </div><!--fin row du menu-->
-
-  </header>  
+    </header>  
     
    
 
-
-    <div class="row justify-content-center">
-      <div class="btn-group-vertical col-6">
-        
-        <button type="button" class="btn btn-dark btn-outline-warning">le club</button>
-        
-        <button type="button" class="btn btn-dark btn-outline-warning">organigramme</button>
-        <button type="button" class="btn btn-dark btn-outline-warning">les sites d'entraînements</button>
+    <main>
+      <div class="row justify-content-center">
       
-      </div><!--fin group vertical-->
+        <div class="btn-group-vertical col-12">
+        
+          <button type="button" class="btn btn-dark btn-outline-warning">le club</button>
+          <br/>
+          <button type="button" class="btn btn-dark btn-outline-warning">organigramme</button>
+          <br/>
+          <button type="button" class="btn btn-dark btn-outline-warning">les sites d'entraînements</button>
+          <br/>
+          <button type="button" class="btn btn-dark btn-outline-warning">les evenements</button>
+          <br/>
+          <button type="button" class="btn btn-dark btn-outline-warning">nos partenaires</button>
+          <br/>
+  
+        </div><!--fin group vertical-->
       </div><!--fin row-->
 
-      <div class="row justify-content-center">
-
-        <div class="dropdown col-6">
-          <button  type="button" class="btn btn-dark btn-outline-warning dropdown-toggle col-12" data-toggle="dropdown">
-          les équipes</button>
-          <div class="row justify-content-center">
-      
-            <div class="btn-group-vertical col-12">
-                  <button type="button" class="btn btn-dark btn-outline-warning">les evenements</button>
-                  <button type="button" class="btn btn-dark btn-outline-warning">nos partenaires</button>
-            </div><!--fin btn group-->
-        
-          </div><!--fin row des button-->
+      <!-- Split les équipes button -->
+        <div class="row justify-content-center">
+          <div class="btn-group dropright col-12">
+ 
+            <button type="button" class="btn btn-dark btn-outline-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+            Les équipes </button>
+            
+            <div class="dropdown-menu col-12">
+            <!-- Dropdown menu links -->
+              <button type="button" class="btn btn-outline-warning dropdown-toggle col-6" aria-haspopup="true" aria-expanded="false"><a href="U9.html">U9</a></button>
+              <button type="button" class="btn btn-secondary dropdown-toggle col-6" aria-haspopup="true" aria-expanded="false"><a href="U11.html">U11</a></button>
+              <button type="button" class="btn btn-outline-warning dropdown-toggle col-6" aria-haspopup="true" aria-expanded="false"><a href="U13.html">U13</a></button>
+              <button type="button" class="btn btn-secondary dropdown-toggle col-6" aria-haspopup="true" aria-expanded="false"><a href="U15.html">U15</a></button>
+              <button type="button" class="btn btn-outline-warning dropdown-toggle col-6" aria-haspopup="true" aria-expanded="false"><a href="U18.html">U18</a></button>
+              <button type="button" class="btn btn-secondary dropdown-toggle col-6" aria-haspopup="true" aria-expanded="false"><a href="Senior.html">Senior</a></button>
+            </div><!--fin dropdown-menu-->
+          
+          </div><!--fin btn group-->
+        </div><!---fin row justify-->
     
-          <!--liste des équipes-->
-          <div class="btn-group-vertical col-2">
-            <div class="dropdown-menu" >
-             <button class="btn-outline-dark  dropdown-item"><a href="U9.html">U9</a></button>
-             <button class="btn-outline-dark  dropdown-item"><a href="U11.html">U11</a></button>
-             <button class="btn-outline-dark  dropdown-item"><a href="U13.html">U13</a></button>
-             <button class="btn-outline-dark  dropdown-item"><a href="U15.html">U15</a></button>
-             <button class="btn-outline-dark  dropdown-item"><a href="U18.html">U18</a></button>
-             <button class="btn-outline-dark  dropdown-item"><a href="Senior.html">Senior</a></button>
-        
-            </div><!--fin dropdown menu-->
-          </div><!--btn group-->
-        </div><!--fin dropdown-->
-      </div><!--fin row-->    
+    </main>  
+      
   </div><!--fin container-->
   
   <!-- jQuery -->

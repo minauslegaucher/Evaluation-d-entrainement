@@ -1,1 +1,31 @@
 
+/*-----------commun---------------*/
+main, footer {
+  background-color: #607D8B;
+  color: white;
+}
+/*--------spécifique-------------*/
+/*--------titre------------------*/
+h2, thead {
+  color: #e2c209
+}
+
+
+/*--------footer----------------*/
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+/*------responsive-------------*/
+@media (min-width: 767.98px) {
+  .liste {
+    display: inline-block;
+    width:50%;
+  }
+  .contact{
+    display: inline-block;
+    width:50%
+  }
+}

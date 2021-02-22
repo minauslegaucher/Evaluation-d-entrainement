@@ -1,0 +1,19 @@
+
+/*-----------commun---------------*/
+main, footer {
+  background-color: #607D8B;
+  color: white;
+}
+/*--------spécifique-------------*/
+/*--------titre------------------*/
+h2, thead {
+  color: #e2c209
+}
+
+
+/*--------footer----------------*/
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}

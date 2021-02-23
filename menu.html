@@ -26,7 +26,7 @@
       <h1 class="align-self-center col-4"> Menu </h1>
       
       
-      <img src="imageOCA\logo-oca-header.png" class="rounded col-6" alt="" width="250" height="150">
+      <img src="imageOCA/logo-oca-header.png" class="rounded col-6" alt="" width="250" height="150">
 
     
       <!--retour index par croix-->
@@ -43,20 +43,19 @@
     </header>  
     
    
-
+    
     <main>
+      
       <div class="row justify-content-center">
       
         <div class="btn-group-vertical col-12">
-        
+          
           <button type="button" class="btn btn-dark btn-outline-warning">le club</button>
           <br/>
           <button type="button" class="btn btn-dark btn-outline-warning">organigramme</button>
           <br/>
-          <a class="btn btn-dark btn-outline-warning" data-toggle="collapse" href="C:\Users\c_min\Documents\evaluation1\terrain\terrain.html" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Link with href
-          </a>
-          <a href="terrain.html"><button type="button" class="btn btn-dark btn-outline-warning">les sites d'entraînements</button></a>
+          
+          <a href="file:///C:/Users/c_min/Documents/evaluation1/terrain/terrain.html" class="btn btn-dark btn-outline-warning">les sites d'entraînements</a>
           <br/>
           <button type="button" class="btn btn-dark btn-outline-warning">les evenements</button>
           <br/>
@@ -68,37 +67,48 @@
 
       <!-- Split les équipes button -->
         <div class="row justify-content-center">
-          <div class="btn-group dropright col-12">
+          <div class="dropdown col-12">
  
-            <button type="button" class="btn btn-dark btn-outline-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-            Les équipes </button>
+            <a class="btn btn-dark btn-outline-warning dropdown-toggle dropdown-toggle-split" id="dropdownMenuLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+            Les équipes </a>
             
-            <div class="dropdown-menu col-12">
+            <div class="dropdown-menu col-12" aria-labelledby="dropdownMenuLink">
             <!-- Dropdown menu links -->
-              <button type="button" class="btn btn-outline-warning dropdown-toggle col-6" aria-haspopup="true" aria-expanded="false"><a href="C:\Users\c_min\Documents\evaluation1\LesEquipes\U9.html">U9</a></button>
-              <button type="button" class="btn btn-secondary dropdown-toggle col-6" aria-haspopup="true" aria-expanded="false"><a href="C:\Users\c_min\Documents\evaluation1\LesEquipes\U11.html">U11</a></button>
-              <button type="button" class="btn btn-outline-warning dropdown-toggle col-6" aria-haspopup="true" aria-expanded="false"><a href="C:\Users\c_min\Documents\evaluation1\LesEquipes\U13.html">U13</a></button>
-              <button type="button" class="btn btn-secondary dropdown-toggle col-6" aria-haspopup="true" aria-expanded="false"><a href="C:\Users\c_min\Documents\evaluation1\LesEquipes\U15.html">U15</a></button>
-              <button type="button" class="btn btn-outline-warning dropdown-toggle col-6" aria-haspopup="true" aria-expanded="false"><a href="C:\Users\c_min\Documents\evaluation1\LesEquipes\U18.html">U18</a></button>
-              <button type="button" class="btn btn-secondary dropdown-toggle col-6" aria-haspopup="true" aria-expanded="false"><a href="C:\Users\c_min\Documents\evaluation1\LesEquipes\Senior.html">Senior</a></button>
+            <a href="file:///C:/Users/c_min/Documents/evaluation1/LesEquipes/U9.html" class="btn btn-outline-warning dropdown-item col-6" aria-haspopup="true" aria-expanded="false">U9</a>
+
+            <a href="file:///C:/Users/c_min/Documents/evaluation1/LesEquipes/U11.html" class="btn btn-outline-warning dropdown-item col-6" aria-haspopup="true" aria-expanded="false">U11</a>
+            
+            <a href="file:///C:/Users/c_min/Documents/evaluation1/LesEquipes/U13.html" class="btn btn-outline-warning dropdown-item col-6" aria-haspopup="true" aria-expanded="false">U13</a>
+
+            <a href="file:///C:/Users/c_min/Documents/evaluation1/LesEquipes/U15.html" class="btn btn-outline-warning dropdown-item col-6" aria-haspopup="true" aria-expanded="false">U15</a>
+
+            <a href="file:///C:/Users/c_min/Documents/evaluation1/LesEquipes/U18.html" class="btn btn-outline-warning dropdown-item col-6" aria-haspopup="true" aria-expanded="false">U18</a>
+
+            <a href="file:///C:/Users/c_min/Documents/evaluation1/LesEquipes/Senior.html" class="btn btn-outline-warning dropdown-item col-6" aria-haspopup="true" aria-expanded="false">Senior</a>
+
+
             </div><!--fin dropdown-menu-->
           
           </div><!--fin btn group-->
         </div><!---fin row justify-->
+        
+
     
-    </main>  
+    </main> 
+ 
       
   </div><!--fin container-->
   
-  <!-- jQuery -->
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
 
-  <script src="jquery-3.5.1.min.js"></script>
-
-  <!-- Bootstrap JavaScript -->
-
-  <script src="bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Our JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
 
   <script src="script.js"></script>
 

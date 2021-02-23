@@ -1,6 +1,6 @@
 
 /*-----------commun---------------*/
-main, footer {
+main, footer,article {
   background-color: #607D8B;
   color: white;
 }

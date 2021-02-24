@@ -22,7 +22,7 @@
     <header>
 
       <div class="titre">
-        <img src="C:\Users\c_min\Documents\evaluation1\imageOCA\logo-oca-header.png" class="rounded col-6" alt="" width="120" height="200">
+        <img src="C:\Users\c_min\Documents\evaluation1\imageOCA\logo-oca-header.png" id="logo" class="rounded col-6" alt="" width="100" height="200">
         <h1><u>Les différentes sites d'entraînements du club.</u></h1>
       </div><!--fin titre-->
       
@@ -80,6 +80,7 @@
       </p>
 
       <main>
+        <div class="row justify-content-center">
 
         <section id="terrain1">
           <div class="card">
@@ -95,68 +96,80 @@
           Suspendisse finibus<i> un mot ancien</i>, vehicula molestie nunc convallis nec.<br/>  
           Phasellus non lacinia lorem. In nec eros id lectus convallis euismod.<br/> 
           Nunc at felis non eros lobortis gravida.
-         </p>
-         </div><!--fin card-->
+          </p>
+          
+          </div><!--fin card-->
+       
         </section>
        
         <section id="terrain2">
-          <h2>Stade annexe du lac</h2>
+          <div class="card">
+          <h2 class="card-title">Stade annexe du lac</h2>
 
           <div class="mapouter"><div class="gmap_canvas"><iframe width="450" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=%20stade%20zi%20du%20lac%2007000%20privas&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><a href="https://www.embedgooglemap.net">map widget for website</a></div></div>
 
           <img src="imageterrain\STADE-DU-LAC-PRIVAS.jpg" width="450" height="350">
 
-          <p>
+          <p class="card-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> 
           Suspendisse finibus <del>qui n'est plus d'actualité</del>, vehicula molestie nunc convallis nec.<br/>  
           Phasellus non lacinia lorem. In nec eros id lectus convallis euismod. <br/> 
           Nunc at felis non eros lobortis gravida.
           </p>
-
+        
+        </div><!--fin card-->
         </section>
 
         <section id="terrain3">
-          <h2>Stade de la Combe</h2>
+          <div class="card">
+          <h2 class="card-title">Stade de la Combe</h2>
 
           <div class="mapouter"><div class="gmap_canvas"><iframe width="450" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=%20stade%20de%20la%20combe%20les%20bans%2007000%20veyras&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><a href="https://www.embedgooglemap.net">map widget for website</a></div></div>
 
           <img src="imageterrain\stade-de-veyras.jpg" width="450" height="350">
 
-          <p>
+          <p class="card-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>  
           Suspendisse finibus <b>un mot nouveau</b>, vehicula molestie nunc convallis nec.<br/>  
           Phasellus non lacinia lorem. In nec eros id lectus convallis euismod!.<br/> 
           Nunc at felis non eros lobortis gravida.
           </p>
-
+        </div><!--fin card-->
         </section>
         
         <section id="terrain4">
-          <h2>Gymnase de Lancelot</h2>
+          <div class="card">
+          <h2 class="card-title">Gymnase de Lancelot</h2>
 
           <div class="mapouter"><div class="gmap_canvas"><iframe width="450" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=gymnase%20chemin%20du%20moulin%20madame%2007000%20Privas&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><a href="https://www.embedgooglemap.net">map widget for website</a></div></div>
 
           <img src="imageterrain\GYMNASE-DE-LANCELOT.jpg" width="450" height="350">
 
-          <p>
+          <p class="card-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/> 
           Suspendisse finibus pulvinar nisl, vehicula molestie nunc convallis nec.<br/> 
           Phasellus non lacinia lorem. In nec eros id lectus convallis euismod. <br/> 
           Nunc at felis non eros lobortis gravida.
           </p>
-        
-        </section>
+        </div><!--fin card-->
+      </section>
+      
     
     </article>
 
         <!--balise footer -->
     <footer>
-      <nav>
+
+      <div class="row justify-content-md-center col-10"> 
+      <nav class="droits">
         <ul>
-          <li class="d-inline p-2">A propos</li>
+          <li class="d-inline p-2">A propos de ce site</li>
           <li class="d-inline p-2">CGU</li>
+          <li class="d-inline p-2"><a href="https://www.fff.fr/" class="foot">site de la federation française de football</a></li>
+
         </ul>
       </nav>
+      </div><!---fin row-->
 
       <div class="row justify-content-md-center col-12"> 
      
@@ -164,16 +177,16 @@
       </div>
 
       <div class="row justify-content-md-center col-12">
-      <p class="d-inline p-1">Sur facebook</p>
+      <p class="d-inline p-1 reseau">Sur facebook</p>
       <a href="https://fr-fr.facebook.com/"><img src="\Users\c_min\Documents\evaluation1\LesEquipes/imgreseau/facebook.png" alt="facebook"></a>
-      <p class="d-inline p-1">Sur Twitter</p>
+      <p class="d-inline p-1 reseau">Sur Twitter</p>
       <a href="https://twitter.com/"><img src="\Users\c_min\Documents\evaluation1\LesEquipes/imgreseau/twitter.png" alt="twitter"></a>
-      <p class="d-inline p-1">Sur instagram</p>
+      <p class="d-inline p-1 reseau">Sur instagram</p>
       <a href="https://www.instagram.com/"><img src="\Users\c_min\Documents\evaluation1\LesEquipes/imgreseau/instagram.png" alt="instagram"></a>
       </div>
        
     </footer>
-
+  </div><!--fin row-->
   </main>
 
     </div><!--fin container-->  

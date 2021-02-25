@@ -20,11 +20,55 @@
 <body>
 
  
-  <container>
-   
-    <Header>
-      <nav></nav>
-      </Header>
+  <div class="container">
+  
+  <header>  
+    
+  <!-- Nav Bar avec bootstrap-->
+  <nav class="navbar navbar-expand-lg navbar-light ">
+          
+    <a class="navbar-brand" href="index.html">menu</a>
+    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">le club</a>
+        </li
+        <li class="nav-item active">
+          <a class="nav-link" href="terrain.html">les sites d'entraînements<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Organigramme</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">les evenements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nos partenaires</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Les Equipes
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="C:\Users\c_min\Documents\evaluation1\LesEquipes\U9.html">U9</a>
+            <a class="dropdown-item" href="C:\Users\c_min\Documents\evaluation1\LesEquipes\U11.html">U11</a>
+            <a class="dropdown-item" href="C:\Users\c_min\Documents\evaluation1\LesEquipes\U15.html">U15</a>
+            <a class="dropdown-item" href="C:\Users\c_min\Documents\evaluation1\LesEquipes\U18.html">U18</a>
+            <a class="dropdown-item" href="C:\Users\c_min\Documents\evaluation1\LesEquipes\Senior.html">Senior</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+ 
+</header>
+
+
       
     <Main>
       
@@ -41,7 +85,7 @@
           </div>
           
           <div class="row justify-content-sm-center col-12">
-          <img src="photoequipe\bresil.jpg">
+          <img src="photoequipe\bresil.jpg" class="rounded mx-auto d-block">
           </div>
         </section>
   
@@ -145,9 +189,11 @@
           <ul>
             <li class="d-inline p-2">A propos</li>
             <li class="d-inline p-2">CGU</li>
+            <li class="d-inline p-2"><a href="https://www.fff.fr/" class="foot">site de la federation française de football</a></li>
           </ul>
         </nav>
   
+        <!---réseaux sociaux en lien-->
         <div class="row justify-content-md-center col-12"> 
        
         <h3>Suivez nous sur nos différents réseaux sociaux!</h3>
@@ -161,29 +207,26 @@
         <p class="d-inline p-1">Sur instagram</p>
         <a href="https://www.instagram.com/"><img src="imgreseau/instagram.png" alt="instagram"></a>
         </div>
-        
-     
-    </footer>
+         
+      </footer>
+      
     </Main>
-  </container>
+  </div><!--fin container--->
   
-
-  </Main>
-</body>
-<!-- jQuery -->
-
-<script src="jquery-3.5.1.min.js"></script>
-
-<!-- Bootstrap JavaScript -->
-
-<script src="bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- Our JavaScript -->
-
-<script src="script.js"></script>
-
-</body>
-
-
-</html>
+   <!-- jQuery -->
+  
+   <script src="/Users/c_min/Documents/evaluation1/jquery-3.5.1.min.js"></script>
+    
+   <!-- Bootstrap JavaScript -->
+   
+   <script src="/Users/c_min/Documents/evaluation1/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
+   
+   <!-- Our JavaScript -->
+   
+   <script src="script.js"></script>
+  
+  </body>
+  
+  
+  </html>
 

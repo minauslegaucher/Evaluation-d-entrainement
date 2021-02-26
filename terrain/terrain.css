@@ -1,21 +1,27 @@
 
 /*-----------commun---------------*/
-main, footer,article{
+
+main, footer{
+  border-radius:10px;
+  border:3px solid #e2c209;
+  margin-top: 10px;
+  margin-right: 15px;
+  padding-bottom: 5%;
   background-color: #607D8B;
   color: white;
+  text-align: center;
 }
 
 
 /*--------spécifique-------------*/
-article, footer{
-  border-radius:10px;
-  border:3px solid #e2c209;
-  margin-top: 30px;
-  margin-right: 15px;
-}
+
 
 header{
   text-align: center;
+}
+
+a {
+  color:white;
 }
 
 section {
@@ -40,12 +46,13 @@ nav{
   border-radius:10px;
   border:3px solid #e2c209;
   margin-top: 30px;
+ 
 }
 
 .informations{ /*en debut de page, sous la barre de nav pour informer rapidement le lecteur*/
-  display: inline-block;
+  
   width: 60%;
-  height: 20%;
+  height: 7%;
   border: 2px solid red;
   border-radius: 10px;
   margin-left: 20%;
@@ -54,11 +61,11 @@ nav{
 }
 
 .card{ /* affiche les differents lieux dans des cartes avec des bordures*/
-  width: 29rem;
+  width: 28rem;
   border : 2px solid #004242;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color:#607D8B;
-
+  
 }
 
 /*-----css des differentes cartes geographique téléchargé-----*/
@@ -86,7 +93,7 @@ h2, thead {
 /*--------footer----------------*/
 footer {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 10px;
 }
 
@@ -99,12 +106,10 @@ footer {
 }
 
 /*-------responsive-------*/
+
+/*---correspond à un telephone portable---*/
 @media (max-width: 575.98px) {
-  article, footer {
-    padding:0%;
-    margin: 0%;
-    border:none;
-  }
+ 
 
   section {
     margin-top: 10px;
@@ -117,8 +122,19 @@ footer {
   display: none;
 }
 
-  
+img, iframe {
+  height: 263px;
+  width: 338px;
+
 }
+
+.twitter, .facebook, .instagram {
+  height: 30px;
+  width: 30px;  
+}
+
+}
+  
 
 @media (max-width: 576px) and (max-width: 767.98px) {
   #logo {
@@ -129,7 +145,9 @@ footer {
 
 
 @media(min-width: 768px) and (max-width: 991.98px){
- 
+  #logo {
+    display: none;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {

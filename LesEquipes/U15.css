@@ -1,26 +1,24 @@
 
 /*-----------commun---------------*/
-main, footer {
+main, footer{
   background-color: #607D8B;
   color: white;
 }
-/*--------spécifique-------------*/
 
-main {
-  border-radius:10px;
-  border:3px solid #e2c209;
-  margin-top: 30px;
-  margin-right: 15px;
+h2, h3, thead, .tableau, .liste, .contact, footer {
+  margin-top: 20px;
 }
 
-main {
+/*-----spécifique-----*/
+
+main{
   border-radius:10px;
   border:3px solid #e2c209;
-  margin-top: 30px;
-  margin-right: 15px;
+  margin-top: 10px;
 }
 
 /*barre de navigation en debut de page faite avec l'aide de bootstrap*/
+
 nav{
   width : 80%;
   margin-left: 10%;
@@ -31,35 +29,74 @@ nav{
 }
 
 /*--------titre------------------*/
-h2, thead {
-  color: #e2c209
+
+h2, h3, thead {
+  color: #e2c209;
+ 
+}
+
+aside, .tableau {
+  text-align: center;
 }
 
 
-/*--------footer----------------*/
+
+/*--------footer------------------*/
+
 footer {
   text-align: center;
-  margin-top: 20px;
+  
   padding: 10px;
 }
 
-/*------responsive-------------*/
+.droits {
+  border: none;
+}
 
+.foot {
+  color: aliceblue;
+}
+
+/*------responsive-------------*/
 @media (max-width: 575.98px) {
 
-  img {
-    height: 222px;
-    width: 356px;
-  }
+
+  h2, h3, thead, .tableau, .liste, .contact, footer{
+    margin-top: 10px;
+    }
+
+img {
+  height: 200px;
+  width: 356px;
+  padding-left: 5%;
+}
+
+footer {
+  padding:0%;
+  margin: 0%;
+  border:none;
+}
+
+
+
+.twitter, .facebook, .instagram {
+  height: 30px;
+  width: 30px;  
+}
+
 }
 
 @media (min-width: 767.98px) {
-  .liste {
-    display: inline-block;
-    width:50%;
-  }
-  .contact{
-    display: inline-block;
-    width:50%
-  }
+ 
+  aside {
+    flex-direction: column;
+    justify-content: center;
+    }
+
+  
+.twitter, .facebook, .instagram {
+  height: 30px;
+  width: 30px;  
+}
+
 }

@@ -1,1 +1,164 @@
 
+/*-----------commun---------------*/
+
+main, footer{
+  border-radius:10px;
+  border:3px solid #e2c209;
+  margin-top: 10px;
+  margin-right: 15px;
+  padding-bottom: 5%;
+  background-color: #607D8B;
+  color: white;
+  text-align: center;
+}
+
+
+/*--------spécifique-------------*/
+
+
+header{
+  text-align: center;
+}
+
+a {
+  color:white;
+}
+
+section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 15px;
+}
+/* en début de page avec le logo du club */
+.titre{
+  display: inline-block;
+  text-align: center;
+  width: 90%;
+  height: 75%;
+
+}
+
+/*barre de navigation en debut de page faite avec l'aide de bootstrap*/
+nav{
+  width : 80%;
+  margin-left: 10%;
+  height:40%;
+  border-radius:10px;
+  border:3px solid #e2c209;
+  margin-top: 30px;
+ 
+}
+
+.informations{ /*en debut de page, sous la barre de nav pour informer rapidement le lecteur*/
+  
+  width: 60%;
+  height: 7%;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.card{ /* affiche les differents lieux dans des cartes avec des bordures*/
+  width: 28rem;
+  border : 2px solid #004242;
+  border-radius: 5px;
+  background-color:#607D8B;
+  
+}
+
+/*-----css des differentes cartes geographique téléchargé-----*/
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:350px;
+  width:450px;}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:350px;
+    width:450px;}
+
+/*--------titre------------------*/
+h2, thead {
+  color: #e2c209
+}
+
+.card-title{
+  text-align: center;
+}
+
+/*--------footer----------------*/
+footer {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.droits {
+  border: none;
+}
+
+.foot {
+  color: aliceblue;
+}
+
+/*-------responsive-------*/
+
+/*---correspond à un telephone portable---*/
+@media (max-width: 575.98px) {
+ 
+
+  section {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right:0px;    
+}
+
+#logo {
+  display: none;
+}
+
+img, iframe {
+  height: 263px;
+  width: 338px;
+
+}
+
+.twitter, .facebook, .instagram {
+  height: 30px;
+  width: 30px;  
+}
+
+}
+  
+
+@media (max-width: 576px) and (max-width: 767.98px) {
+  #logo {
+    display: none;
+  }
+}
+  
+
+
+@media(min-width: 768px) and (max-width: 991.98px){
+  #logo {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+}
+
+@media (min-width: 1200px) {
+  main, header{
+    width:100%;
+    padding:0px;
+}
+
+}

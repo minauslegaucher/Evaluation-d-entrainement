@@ -82,7 +82,7 @@ nav{
     width:450px;}
 
 /*--------titre------------------*/
-h2, thead {
+h2, thead, u, mark {
   color: #e2c209
 }
 
